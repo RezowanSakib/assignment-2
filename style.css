@@ -1,0 +1,19 @@
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.navigation{
+    display: flex;
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+    padding: 5px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+.nav-list{
+    list-style: none;
+}
