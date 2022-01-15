@@ -1,19 +1,156 @@
-
-header{
-    display: flex;
-    justify-content: space-between;
+body {
+  align-items: center;
 }
-.navigation{
-    display: flex;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.nav-link{
-    text-decoration: none;
-    color: black;
-    margin: 5px;
-    padding: 5px;
+.navigation {
+  display: flex;
+}
+.nav-link {
+  text-decoration: none;
+  color: black;
+  margin: 5px;
+  padding: 5px;
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+.nav-list {
+  list-style: none;
+}
+/* main{
     background-color: whitesmoke;
-    border-radius: 5px;
+} */
+
+.influ-section {
+  background-color: white;
+  display: flex;
+
+  justify-content: space-evenly;
+
+  height: 500px;
+  align-items: center;
 }
-.nav-list{
-    list-style: none;
+.div-1 {
+  width: 582px;
+  height: 270px;
+}
+.first-head {
+  font-size: 50px;
+}
+.btn {
+  background-color: rgb(206, 31, 95);
+  border-radius: 41px;
+  color: white;
+  padding: 8px;
+  margin-top: 16px;
+  border: 1px solid rgb(206, 31, 95);
+  width: 160px;
+}
+.main-camera {
+  background-image: url(images/Circle\ design.svg);
+  background-repeat: no-repeat;
+  width: 414px;
+  height: 440px;
+}
+.logo {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  border: 1px solid rgba(170, 170, 170, 1);
+  border-radius: 140px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  background-color: whitesmoke;
+
+  overflow-wrap: break-word;
+}
+.products-page {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 50px;
+  background-color: whitesmoke;
+  justify-items: center;
+  align-items: center;
+}
+.popular-heading {
+  display: flex;
+  justify-content: center;
+}
+
+.product {
+  width: 329px;
+  height: 476px;
+  background-color: white;
+  border-radius: 10px;
+}
+.image {
+  position: relative;
+  width: 300px;
+  height: 273px;
+  margin: 15px 17px 15px 17px;
+}
+.about {
+  margin-left: 15px;
+}
+
+.price {
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.rating {
+  display: flex;
+  align-items: center;
+  width: 130px;
+  height: 30px;
+  position: relative;
+}
+.number {
+  position: relative;
+}
+.info {
+  height: 61px;
+  width: 196px;
+  left: 210px;
+  top: 1433px;
+  border-radius: nullpx;
+  color: rgb(66, 66, 66);
+  font-weight: bold;
+  letter-spacing: 0.018em;
+  font-family: Inter;
+  font-size: 14px;
+}
+.more {
+  color: rgba(218, 31, 99, 0.87);
+  border: none;
+  font-size: 18px;
+  margin-left: 88%;
+  background-color: white;
+}
+.bonous {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: whitesmoke;
+}
+.bonous-article {
+  width: 610px;
+  height: 226px;
+  background-color: white;
+}
+.footer {
+  background: rgba(10, 8, 38, 1);
+}
+.copyright {
+  color: white;
+  justify-content: center;
 }
