@@ -28,7 +28,7 @@ header {
 
   justify-content: space-evenly;
   justify-items: center;
-
+  overflow-y: hidden;
   height: 500px;
   align-items: center;
   position: static;
@@ -36,6 +36,10 @@ header {
 .div-1 {
   width: 582px;
   height: 270px;
+}
+.influ-section:hover .main-camera {
+  transform: scale(1.3);
+  transition: transform 2s;
 }
 .first-head {
   font-size: 50px;
@@ -141,12 +145,15 @@ header {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: whitesmoke;
+  background-color: white;
+}
+.security {
+  border-radius: 15px;
 }
 .bonous-article {
   width: 610px;
   height: 226px;
-  background-color: white;
+  background-color: whitesmoke;
 }
 .footer {
   background: rgba(10, 8, 38, 1);
@@ -170,13 +177,12 @@ header {
     margin-left: 30%;
     font-size: large;
     position: absolute;
-    
   }
   .div-1 {
     width: 80%;
     order: 2;
   }
-  
+
   .camera {
     background: none;
     width: 50%;
@@ -189,7 +195,6 @@ header {
     height: 256px;
     width: 256px;
     order: 1;
-    
   }
   .influ-section {
     margin-top: 50px;
@@ -199,11 +204,8 @@ header {
     row-gap: 20px;
     justify-items: center;
     align-content: space-around;
-    
-    
   }
   .logo {
-   
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     row-gap: 20px;
@@ -232,6 +234,10 @@ header {
     width: 80%;
     height: 300px;
   }
+  .security {
+    width: 400px;
+    height: 270px;
+  }
   .bonous {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -246,7 +252,6 @@ header {
   }
 }
 @media only screen and (max-width: 992px) {
- 
   .logo {
     margin-top: 50px;
   }
